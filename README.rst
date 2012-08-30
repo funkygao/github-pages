@@ -20,7 +20,7 @@ Jekyll（发音/'dʒiːk əl/，"杰克尔"）是一个静态站点生成器，�
     $ echo 'hello' > readme
     $ git add .
     $ git ci -m 'init repo'
-    $ git remote add origin https://github.com/username/github-pages.git
+    $ git remote add origin https://github.com/funkygao/github-pages.git
     $ git push origin master
 
     $ git checkout --orphan gh-pages
@@ -33,5 +33,6 @@ Jekyll（发音/'dʒiːk əl/，"杰克尔"）是一个静态站点生成器，�
     $ git push origin gh-pages
 
 
+    http://funkygao.github.com/github-pages/
 
     
