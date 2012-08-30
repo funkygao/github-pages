@@ -38,7 +38,7 @@ Jekyll（发音/'dʒiːk əl/，"杰克尔"）是一个静态站点生成器，�
    
 DNS
 ---
-如果不想用http://funkygao.github.com/github-pages/这个域名，可以换成自己的域名。
+如果不想用 http://funkygao.github.com/github-pages/ 这个域名，可以换成自己的域名。
 
 具体方法是在repo的根目录下面，新建一个名为CNAME的文本文件，里面写入你要绑定的域名，比如example.com或者xxx.example.com。
 
