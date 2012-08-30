@@ -1,0 +1,22 @@
+---
+layout: default
+title: linux 下获取 nano second
+---
+
+<h2>{{ page.title }}</h2>
+<pre>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int
+main(int argc, char **argv) {
+    struct timespec *thetime = (struct timespec *)malloc(sizeof(struct timespec));
+    if (clock_gettime(CLOCK_REALTIME, thetime))
+        printf('Hmm...it failed...\n');
+    else
+        printf('Seconds: %ld, nano: %ld\n', thetime->tv_sec, thetime->tv_nsec);
+                                
+    free(thetime);
+    return 0;
+}
+</pre>
